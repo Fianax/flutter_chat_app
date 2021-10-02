@@ -4,7 +4,7 @@ class Btn_azul extends StatelessWidget{
 
   final String etiqueta;
 
-  final Function() onPress;
+  final Function()? onPress;
 
   final ButtonStyle style=ElevatedButton.styleFrom(
       elevation: 2,

@@ -8,7 +8,7 @@ import 'package:real_time_chat/models/usuario.dart';
 
 class AuthService with ChangeNotifier{
 
-  late Usuario usuario;
+  late Usuario usuario;//yo, el usuario que lanza la app
   bool _autenticando=false;
 
   //crear storage para guardar el token
